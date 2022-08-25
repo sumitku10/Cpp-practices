@@ -5,14 +5,6 @@ struct node{
     int data;
     struct node*links;
 };
-
-int main()
-{
-    head =NULL;
-   add_at_end(head,67);
-    
- return 0;
-}
 void add_at_end(struct node*head,int data){
     struct node*ptr,*temp;
     ptr=head;
@@ -23,4 +15,12 @@ void add_at_end(struct node*head,int data){
         ptr=ptr->links;
     }
     ptr->links=temp;
+};
+
+int main()
+{
+    char head =NULL;
+   add_at_end(head,67);
+    
+ return 0;
 }
