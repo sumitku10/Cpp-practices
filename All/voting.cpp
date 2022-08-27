@@ -5,10 +5,10 @@ int main()
 {
     int a;
 
-ineligible:
-{
+    ineligible:
+    {
     cout << "are you pass" << endl;
-}
+    }
 
     cout << "enter the your marks" << endl;
     cin >> a;
@@ -22,4 +22,4 @@ ineligible:
     }
 
     return 0;
-}
+};
