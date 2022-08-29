@@ -3,8 +3,7 @@
 #include<iostream>
 using namespace std;
 #include<string>
-int main()
-{
+int main(){
   int array[100],size,i,pos,num;
   cout<<"Enter the size of array : ";
   cin>> size;
@@ -36,7 +35,7 @@ int main()
     }
   }
   if(pos>0){
-    cout<<"Number " << num <<" found ";
+    cout<<"Number " << num <<" found in position : " <<pos;
   }
   else{
     cout<<"Number not found";
