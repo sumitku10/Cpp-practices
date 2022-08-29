@@ -1,4 +1,4 @@
-// Bubble shorting and searching  
+// searching  through Bubble shorting.
 
 #include<iostream>
 using namespace std;
