@@ -8,7 +8,7 @@ int main(){
     for(i=0;i<size;i++){
         cin>>array[i];
     }
-    cout<<"Enter number which we search : ";
+    cout<<"Enter Element which we search : ";
     cin>>num;
     for(i=0;i<size;i++){
         if(array[i]==num){
@@ -16,10 +16,10 @@ int main(){
         }
     }
     if(pos>0){
-        cout<<"Number " << num <<" found ";
+        cout<<"Element " << num <<" found ";
     }
     else{
-        cout<<"Number not found";
+        cout<<"Element not found";
     }
     
     return 0;
