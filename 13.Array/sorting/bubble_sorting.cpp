@@ -8,8 +8,9 @@ int main()
   int array[100],size,i,pos,num;
   cout<<"Enter the size of array : ";
   cin>> size;
-  cout<<"Enter the array element : "<<endl;
+ 
   for(i=0;i<size;i++){
+    cout<<"Enter the array element "<<i+1<<": ";
     cin>>array[i];
   }  
   int counteer=1;
@@ -23,11 +24,11 @@ int main()
     }
     counteer++;
   }
-  cout<<"after sorting : "<<endl;
+  cout<<"Applying bubble sorting algorithm : "<<endl;
   for(int i=0;i<size;i++){
     cout<<array[i]<<endl;
   }
-  cout<<"Enter number which we search : ";
+  cout<<"Enter Element which we search : ";
   cin>>num;
   for(i=0;i<size;i++){
     if(array[i]==num){
