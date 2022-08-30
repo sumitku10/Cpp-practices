@@ -4,11 +4,11 @@ using namespace std;
 class area
 {
     int a;
-    float b;
     float c;
+    float b=3.1417;
     public:
     void show();
-    float  b=3.1417;
+   
 };
 
 void area :: show()
