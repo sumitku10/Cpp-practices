@@ -19,6 +19,7 @@ int main()
     }
     array[pos] = num;
     size++;
+    //array printing 
     cout << "Finally array element : " << endl;
     for (i = 0; i < size; i++){
         cout << array[i] << endl;
