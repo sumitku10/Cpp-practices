@@ -2,6 +2,7 @@
 using namespace std;
 
 int square(int a);
+
 int add(int a,int b)
 {
    return (a+b);
@@ -13,8 +14,7 @@ int square(int a)
    return ans;
 }
 
-int main()
-{
+int main(){
 
    int c = add(2,5);
    cout << c << endl;
