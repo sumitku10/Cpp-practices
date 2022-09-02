@@ -4,7 +4,7 @@ using namespace std;
 int main(){
    for(int i=1;i<=5;i++){
        if(i==3){
-        // where three is not printing
+         // where three is not printing
            continue;
        }
        cout<<i<<endl;
