@@ -31,7 +31,7 @@ class branch:public college{
 class academic:public university,public college ,public branch{
     private:
     int
-}
+};
 
 
 int main()
