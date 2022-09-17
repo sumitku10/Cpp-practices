@@ -7,7 +7,7 @@ using namespace std;
 int main()
 {
     int num;
-    cout << "Enter the number 1 to 5 :";
+    cout << "Enter the number 1 to 5 anyone :";
     cin >> num;
     switch (num)
     {
