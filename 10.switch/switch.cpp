@@ -7,7 +7,7 @@ using namespace std;
 int main()
 {
     int num;
-    cout << "Enter the number 1 to 3 :";
+    cout << "Enter the number 1 to 5 :";
     cin >> num;
     switch (num)
     {
@@ -20,6 +20,12 @@ int main()
     case 3:
         cout << "it is 3";
         break;
+    case 4:
+        cout << "it is 4";
+        break;    
+    case 5:
+        cout << "it is 5";
+        break;    
 
     default:
         cout << "number not found";
