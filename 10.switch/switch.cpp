@@ -6,9 +6,10 @@ using namespace std;
 #include <string>
 int main()
 {
-    int num;
+    int num; // variable
     cout << "Enter the number 1 to 5 anyone :";
     cin >> num;
+    // switch statement 
     switch (num)
     {
     case 1:
