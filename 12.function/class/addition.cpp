@@ -12,7 +12,7 @@ class addition{
 };
 int main(void)
 {
-    addition obj;
+    addition obj;// function calling//
     cout<<obj.sum(20,15)<<endl;
    // cout<<obj.sum(44,55,66)<<endl;
    
