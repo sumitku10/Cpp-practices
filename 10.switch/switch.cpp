@@ -9,6 +9,7 @@ int main()
     int num; // variable
     cout << "Enter the number 1 to 5 anyone :";
     cin >> num;
+    // switch statement 
     switch (num)
     {
     case 1:

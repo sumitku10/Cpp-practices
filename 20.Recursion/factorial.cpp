@@ -7,7 +7,7 @@ int main()
     int fact, a;
     cout << "Enter number for factorial : ";
     cin >> a;
-    fact = factorial(a);
+    fact = factorial(a); // call to factorial funtion
     cout << "factorial of number  " << fact << endl;
 
     return 0;
