@@ -49,14 +49,11 @@ int main(){
             break;
         case 2:
             cout<<"enter base and height\n";   
-            cin>>c>>d;
-            e=0.5*c*d;
-            cout<<"area of triange is "<< e; 
+             
             break;
         case 3:
             cout<<"enter lenght and width\n";   
-            cin>>c>>d;
-            cout<<"area of reactangle is "<< c*d; 
+              
             break;    
         default:
             cout<<"your choice is not found !";
