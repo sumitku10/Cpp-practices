@@ -55,8 +55,8 @@ int main(){
             break;
         case 3:
             cout<<"enter lenght and width\n";   
-            cin>>c>>d;
-            cout<<"area of reactangle is "<< c*d; 
+           
+
             break;    
         default:
             cout<<"your choice is not found !";
