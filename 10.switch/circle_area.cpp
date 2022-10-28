@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
      ///  area ..1 circle..,2 .. area of triangel ,,,3..area of rectngale.
-    /// volume ..1 volume..,2 .. volume of triangel ,,,3..volume of rectngale.
+    /// volume  1. volume  2. volume of triangel 3..volume of rectngale.
    
     int choice;
     int a,b,c,d,e,f,g,h,j,k,l,m,n;
