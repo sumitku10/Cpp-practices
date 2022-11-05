@@ -43,15 +43,10 @@ int main(){
        switch (j)
         {
         case 1:
-            cout<<"enter circle of radius";
-            cin>>j;
-            cout<<"area of circle is "<<b*b*3.14;
+             
             break;
         case 2:
-            cout<<"enter base and height\n";   
-            cin>>c>>d;
-            e=0.5*c*d;
-            cout<<"area of triange is "<< e; 
+              
             break;
         case 3:
             cout<<"enter lenght and width\n";   
