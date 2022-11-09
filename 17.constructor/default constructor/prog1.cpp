@@ -1,8 +1,7 @@
 #include <iostream>
 using namespace std;
 #include <string>
-class area
-{
+class area{
     int a;
     float c;
     float b=3.1417;
@@ -11,15 +10,13 @@ class area
    
 };
 
-void area :: show()
-{
+void area :: show(){
     cout << "Enter the radius of circle : ";
     cin >> a;
     c = a * a * b;
     cout << c;
 }
-int main()
-{
+int main(){
     area a1;
     a1.show();
     return 0;
