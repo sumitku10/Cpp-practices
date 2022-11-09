@@ -2,7 +2,7 @@
 using namespace std;
 //#include<string>
 
-
+// function calling //
 class school{
     public:
     int id;
