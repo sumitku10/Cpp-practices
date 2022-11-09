@@ -1,5 +1,4 @@
 /*  if more then iff condition are uses in program then we prefer to use in swith case
-
 */
 #include <iostream>
 using namespace std;
