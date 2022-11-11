@@ -11,6 +11,7 @@ int factorial(int n){
    }
 };
 
+// main function//
 int main(){
    int factorial(int);
    int fact, value;
