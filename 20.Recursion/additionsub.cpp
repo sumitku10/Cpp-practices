@@ -1,8 +1,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
-int main()
-{
+int main(){
     int a, sum = 0, i, marks[a];
     cout << " \nHow many number are use for (add,sub,multi,divd)  :\n";
     cin >> a;
@@ -23,7 +22,7 @@ int main()
 
         printf("\ntotal sum = %d", sum);
         break;
-    /* case '-':
+    case '-':
         for (i = 0; i < a; i++){
             cout<<"\nEnter number : ";
             cin>>marks[i];
@@ -54,7 +53,7 @@ int main()
             sum = sum / marks[i];
 
         printf("\ntotal sum = %d", sum);
-        break;*/
+        break;
     default:
         cout << "I am still learning more !";
         break;
